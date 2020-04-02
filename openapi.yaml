@@ -1037,8 +1037,8 @@ components:
       x-skaffolder-services: 
       x-skaffolder-nesteds: 
       x-skaffolder-links:
-        - 5e85f4bd8763035aac7a56f1
-        - 5e85f4c18763035aac7a56fb
+        - 5e8611b68763035aac7a5a26
+        - 5e8611cf8763035aac7a5a87
       x-skaffolder-roles: []
     - x-skaffolder-id: 5e85f4af8763035aac7a56e1
       x-skaffolder-name: ProdutoEdit
@@ -1064,6 +1064,17 @@ components:
       x-skaffolder-links:
         - 5e85f4af8763035aac7a56e1
       x-skaffolder-roles: []
+    - x-skaffolder-id: 5e8611b68763035aac7a5a26
+      x-skaffolder-name: comprar
+      x-skaffolder-url: /comprar
+      x-skaffolder-template: 
+      x-skaffolder-resource: 
+      x-skaffolder-services: 
+      x-skaffolder-nesteds: 
+      x-skaffolder-links:
+        - 5e85f4a98763035aac7a56dd
+        - 5e85f4af8763035aac7a56e7
+      x-skaffolder-roles: []
     - x-skaffolder-id: 5e85f4bc8763035aac7a56eb
       x-skaffolder-name: comprarEdit
       x-skaffolder-url: /comprars/{id}
@@ -1088,6 +1099,17 @@ components:
       x-skaffolder-links:
         - 5e85f4a98763035aac7a56dd
         - 5e85f4af8763035aac7a56e7
+      x-skaffolder-roles: []
+    - x-skaffolder-id: 5e8611cf8763035aac7a5a87
+      x-skaffolder-name: vender
+      x-skaffolder-url: /vender
+      x-skaffolder-template: 
+      x-skaffolder-resource: 
+      x-skaffolder-services: 
+      x-skaffolder-nesteds: 
+      x-skaffolder-links:
+        - 5e85f4a98763035aac7a56d7
+        - 5e85f4af8763035aac7a56e1
       x-skaffolder-roles: []
     - x-skaffolder-id: 5e85f4c18763035aac7a56f5
       x-skaffolder-name: venderEdit

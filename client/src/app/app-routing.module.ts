@@ -40,8 +40,10 @@ import { CategoriaEditComponent} from './pages/categoria-edit/categoria-edit.com
 import { CategoriaListComponent} from './pages/categoria-list/categoria-list.component';
 import { ProdutoEditComponent} from './pages/produto-edit/produto-edit.component';
 import { ProdutoListComponent} from './pages/produto-list/produto-list.component';
+import { ComprarComponent} from './pages/comprar/comprar.component';
 import { ComprarEditComponent} from './pages/comprar-edit/comprar-edit.component';
 import { ComprarListComponent} from './pages/comprar-list/comprar-list.component';
+import { VenderComponent} from './pages/vender/vender.component';
 import { VenderEditComponent} from './pages/vender-edit/vender-edit.component';
 import { VenderListComponent} from './pages/vender-list/vender-list.component';
 
@@ -67,8 +69,10 @@ const routes: Routes = [
     { path: 'home',  loadChildren: './pages/home/home.module#HomeModule' , canActivate: [AuthGuard] },
     { path: 'produtos/:id',  loadChildren: './pages/produto-edit/produto-edit.module#ProdutoEditModule' , canActivate: [AuthGuard] },
     { path: 'produtos',  loadChildren: './pages/produto-list/produto-list.module#ProdutoListModule' , canActivate: [AuthGuard] },
+    { path: 'comprar',  loadChildren: './pages/comprar/comprar.module#ComprarModule' , canActivate: [AuthGuard] },
     { path: 'comprars/:id',  loadChildren: './pages/comprar-edit/comprar-edit.module#ComprarEditModule' , canActivate: [AuthGuard] },
     { path: 'comprars',  loadChildren: './pages/comprar-list/comprar-list.module#ComprarListModule' , canActivate: [AuthGuard] },
+    { path: 'vender',  loadChildren: './pages/vender/vender.module#VenderModule' , canActivate: [AuthGuard] },
     { path: 'venders/:id',  loadChildren: './pages/vender-edit/vender-edit.module#VenderEditModule' , canActivate: [AuthGuard] },
     { path: 'venders',  loadChildren: './pages/vender-list/vender-list.module#VenderListModule' , canActivate: [AuthGuard] },
 
